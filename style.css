@@ -7,52 +7,59 @@
     background-color: rgba(0, 0, 0, 0.923);
 }
 .img img{
-    height: 479px;
-    width: 290px;
+    height: 529px;
+    width: 340px;
     transition: 2s;
     
     
 }
 .img img:hover{
-    height: 489px;
-    width: 300px;
+    height: 534px;
+    width: 345px;
     transition: 1s;
 }
 @media only screen and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
     .img img{
-        height: 379px;
+        height: 560px;
         width: 190px;
         transition: 2s;
         
         
     }
     .img img:hover{
-        height: 382px;
+        height: 565px;
         width: 192px;
         transition: 1s;
     }
 }
 
-.option2 p{
+.option2 p a{
     font-weight: bold;
     font-size: clamp(0.5rem, -0.125rem + 2vw, 1rem);    
     color: white;
-
+    text-decoration: none;
 }
 
-.option2 p:hover{
+.option2 p a:hover{
     color: rgb(255, 0, 0);
+}
+.option2 p a:active{
+    color: rgba(255, 0, 0, 0.734);
 }
 .port img{
     height: 120px;
     width: 120px;
 }
 .parent{
-    height: 25vh;
+    height: 20vh;
 }
 .parent2{
-    height: 75vh;
+    height: 80vh;
 }
 .port2 h1{
     font-size: clamp(1.5rem, -0.5313rem + 6.5vw, 3.125rem);
@@ -61,6 +68,7 @@
 .intro h1{
     font-size: clamp(1.5rem, 0.25rem + 4vw, 2.5rem);
     color:white;
+    padding-bottom: 10px;;
 }
 .intro h1 strong{
     font-size: clamp(1.5rem, 0.25rem + 4vw, 2.5rem);
@@ -70,6 +78,7 @@
     font-weight: bold;
     font-style: oblique 18deg;
     box-shadow: 2px 2px 2px 1px rgba(223, 23, 23, 0.2);
+  
 }
 .intro h5{
     color: rgba(255, 255, 255, 0.596);
@@ -79,16 +88,26 @@
 .intro p{
     color: white;
     font-size: clamp(0.5rem, -0.2813rem + 2.5vw, 1.125rem);
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 .intro a{
     background-color: red;
     color: white;
     text-decoration: none;
-    padding-left: 5px;
+    padding-left: 10px;
     border-radius: 2px;
-    padding-top: 5px;
-    padding-right: 8px;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 7px;
     
+}
+.intro a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.intro a:active{
+    background-color: rgba(255, 255, 255, 0.612);
+    color: rgba(0, 0, 0, 0.628);
+    font-weight: bold;
 }
