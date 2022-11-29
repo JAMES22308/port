@@ -104,10 +104,36 @@
 .intro a:hover{
     background-color: white;
     color: black;
-    font-weight: bold;
+    
 }
 .intro a:active{
     background-color: rgba(255, 255, 255, 0.612);
     color: rgba(0, 0, 0, 0.628);
-    font-weight: bold;
+    
+}
+.row a img{
+    height: 200px;
+    width: 200px;   
+   
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .row a img{
+        height: 50px;
+        width: 50px;
+
+    }
+}
+
+.wrapper-qr2 p{
+   font-size: 15px;
+   font-weight: bold;
+}
+.gmail{
+    text-decoration: none;
+    color: black;
+}
+.wrapper-contact{
+    background-color: rgba(0, 0, 0, 0.923);
+    color: white;
 }
