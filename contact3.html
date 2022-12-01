@@ -17,6 +17,8 @@
         background: rgba(0, 0, 0, 0.923);
         border: none;
         color: white;
+        outline: none;
+        
       }
       button{
         border: rgb(34, 34, 211);
@@ -25,22 +27,56 @@
       }
       label{
         font-weight: bold;
-        color: white;
+        color: rgba(255, 255, 255, 0.588);
       }
       input{
         background: rgba(0, 0, 0, 0.923);
         border: none;
         margin-bottom: 1%;
         color: white;
+        outline: none;
+        
       }
       .contact{
         background-color: rgba(0, 0, 0, 0.923);
        
       }
-      .contact-right3 {
-        background-image: url("location2.jpg");
-        border-radius: 2px;
+      .contact2{
+        height: 75vh;
+        width: 40%;
       }
+      .contact-right{
+        height: 75vh;
+        width: 35%;
+        
+      }
+      .contact-right2{
+        height: 100%;
+        width: 80%;
+        
+        
+      }
+      .contact-right2 img{
+        height: 30px;
+        width: 30px;
+       margin-right: 3%;;
+      }
+      .location {
+        height: 10%;
+      }
+      .viber {
+        height: 10%;
+      }
+      .gmail {
+        height: 10%;
+      }
+      .underline{
+        border-bottom: 1px solid white;
+      }
+      .underline2{
+        border-bottom: 1px solid white;
+      }
+      
       
     </style>
   </head>
@@ -48,15 +84,18 @@
     <div
       class="contact  vh-100 w-100 d-flex align-items-center justify-content-center"
     >
-      <div class="contact2 h-75 w-50 border border-warning text-white">
+    
+      <div class="contact2   text-white ">
+        
         <form
           action="https://formsubmit.co/michaeljamessoria@gmail.com"
           method="POST"
         >
-        <h1>Contact us</h1>
-          <label for="">FIRSTNAME</label>
+        <h1>Email</h1>
+        <p></p>
+          <label for="">FIRST NAME</label>
           <input type="text" name="FIRST NAME" class="w-100" required />
-          <label for="">LASTNAME</label>
+          <label for="">LAST NAME</label>
           <input type="text" name="LAST NAME" class="w-100" required />
           <label for="">PHONE</label>
           <input type="phone" name="PHONE" class="w-100" required />
@@ -64,17 +103,55 @@
           <input type="email" name="EMAIL" class="w-100" required />
           <label for="">MESSAGE</label>
           <textarea rows="6" name="MESSAGE"></textarea required>
-          <div class="submit d-flex justify-content-center mt-2">
-            <button type="submit" class="w-100"><strong>Send</strong></button>
+          <div class="submit d-flex justify-content-center mt--1">
+            <button type="submit" class="w-100"><strong>Send</strong></button> 
           </div>
         </form>
       </div>
-      <div class="contact-right border border-success  h-75 w-25 text-white  d-flex justify-content-end align-items-start">
-        
-       
-          <div class="contact-right3 h-100 w-75 border border-warning d-flex align-items-start">
-           
+     
+      <div class="contact-right   text-white  d-flex justify-content-center align-items-end ">
+        <div class="contact-right2   ">
+          <div class="contact-h1 pb-3 text-black text-white">
+            <h1>Contact</h1>
           </div>
+          
+          <div class="location  d-flex text-black text-white">
+            <img src="maps-and-flags.png" alt="">
+            <p>Philippines</p>
+          </div>
+          
+          <div class="viber d-flex   text-black text-white">
+           <img src="viber.png" alt="">
+           <p>+639 101 294 273</p>
+          </div>
+          
+         
+
+          <div class="underline mb-2 ">
+
+          </div>
+
+          <div class="socialmedia d-flex justify-content-around ">
+            <a href="https://www.facebook.com/michaeljames.soria.9/" target="_blank"><img src="facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/james_mentality/" target="_blank"><img src="instagram.png" alt=""></a>
+            <a href="mailto: michaeljamesoria@gmail.com" target="_blank"><img src="gmail-logo.png" alt=""></a>
+            <a href="https://github.com/JAMES22308" target="_blank"><img src="github.png" alt=""></a>
+            <a href="https://twitter.com/MichaeljamesSo5" target="_blank"><img src="twitter.png" alt=""></a>
+          </div>
+
+          <div class="underline2 pb-2 ">
+
+          </div>
+          <div class="footer mt-3">
+            <p>ALL OF THE RIGHTS RESERVED ®</p>
+          </div>
+          <div class="maps">
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.4160362542525!2d122.95389521431534!3d14.111613792656723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3398ae5c01f96755%3A0xc93de3e6b0c7ddd5!2sLa%20Consolacion%20College%20%E2%80%93%20Daet!5e0!3m2!1sen!2sph!4v1669898258153!5m2!1sen!2sph" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+          
+
+        </div>
+     
       
         
             
