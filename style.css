@@ -7,17 +7,13 @@
     background-color: rgba(0, 0, 0, 0.923);
 }
 .img img{
-    height: 529px;
+    height: 530px;
     width: 340px;
-    transition: 2s;
+    
     
     
 }
-.img img:hover{
-    height: 534px;
-    width: 345px;
-    transition: 1s;
-}
+
 @media only screen and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
     *{
@@ -31,11 +27,7 @@
         
         
     }
-    .img img:hover{
-        height: 565px;
-        width: 192px;
-        transition: 1s;
-    }
+    
 }
 
 .option2 p a{
