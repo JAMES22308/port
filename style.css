@@ -7,7 +7,7 @@
     background-color: rgba(0, 0, 0, 0.923);
 }
 .img img{
-    height: 500px;
+    height: 470px;
     width: 200px;
     
     
@@ -54,14 +54,14 @@
     height: 80vh;
 }
 .port2 h1{
-   font-size: 60px;
+   font-size: 55px;
     color: red;
 }
 .intro h1{
    
     color:white;
     padding-bottom: 10px;;
-    font-size: 30px;
+    font-size: 45px;
 }
 .intro h1 strong{
   font-size: 50px;
