@@ -7,8 +7,8 @@
     background-color: rgba(0, 0, 0, 0.923);
 }
 .img img{
-    height: 530px;
-    width: 340px;
+    height: 700px;
+    width: 400px;
     
     
     
@@ -58,12 +58,12 @@
     color: red;
 }
 .intro h1{
-    font-size: clamp(1.5rem, 0.25rem + 4vw, 2.5rem);
+    font-size: clamp(1.25rem, -1.0938rem + 7.5vw, 3.125rem);
     color:white;
     padding-bottom: 10px;;
 }
 .intro h1 strong{
-    font-size: clamp(1.5rem, 0.25rem + 4vw, 2.5rem);
+    font-size: clamp(0.75rem, -2.2188rem + 9.5vw, 3.125rem);
 }
 .name{
     color: rgba(255, 0, 0, 0.885);
@@ -79,18 +79,18 @@
 }
 .intro p{
     color: white;
-    font-size: clamp(0.5rem, -0.2813rem + 2.5vw, 1.125rem);
+    font-size: clamp(0.75rem, 0.125rem + 2vw, 1.25rem);
     padding-bottom: 10px;
 }
 .intro a{
     background-color: red;
     color: white;
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 13px;
     border-radius: 2px;
-    padding-top: 4px;
-    padding-right: 12px;
-    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-bottom: 10px;
     
 }
 .intro a:hover{
