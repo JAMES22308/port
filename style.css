@@ -32,7 +32,7 @@
 
 .option2 p a{
     font-weight: bold;
-    font-size: clamp(0.5rem, -0.125rem + 2vw, 1rem);    
+      
     color: white;
     text-decoration: none;
 }
@@ -54,16 +54,16 @@
     height: 80vh;
 }
 .port2 h1{
-    font-size: clamp(1.5rem, -0.5313rem + 6.5vw, 3.125rem);
+   
     color: red;
 }
 .intro h1{
-    font-size: clamp(1.25rem, -1.0938rem + 7.5vw, 3.125rem);
+   
     color:white;
     padding-bottom: 10px;;
 }
 .intro h1 strong{
-    font-size: clamp(0.75rem, -2.2188rem + 9.5vw, 3.125rem);
+  
 }
 .name{
     color: rgba(255, 0, 0, 0.885);
@@ -75,11 +75,11 @@
 .intro h5{
     color: rgba(255, 255, 255, 0.596);
     letter-spacing: 10px;
-    font-size: clamp(0.5rem, -0.2813rem + 2.5vw, 1.125rem);    
+     
 }
 .intro p{
     color: white;
-    font-size: clamp(0.75rem, 0.125rem + 2vw, 1.25rem);
+   
     padding-bottom: 10px;
 }
 .intro a{
