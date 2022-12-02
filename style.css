@@ -27,6 +27,19 @@
         
         
     }
+    .intro h5{
+        font-size: 8px;
+    }
+    .option2 p a{
+        font-size: 5px;
+    }
+    .port2 h1{
+        font-size: 20px;
+         
+     }
+     .intro h1 strong{
+        font-size: 25px;
+      }
     
 }
 
