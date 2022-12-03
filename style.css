@@ -7,8 +7,8 @@
     background-color: rgba(0, 0, 0, 0.923);
 }
 .img img{
-    height: 570px;
-    width: 300px;
+    height: 540px;
+    width: 320px;
     
     
     
@@ -38,10 +38,10 @@
          
      }
      .intro h1 strong{
-        font-size: 25px;
+        font-size: 20px;
       }
       .port2 h1 strong{
-        font-size: 15px;
+        font-size: 25px;
          
      }
      
